@@ -1,9 +1,19 @@
 
 public class T6 {
-    /*
+    /**
      * @param A: sorted integer array A
      * @param B: sorted integer array B
      * @return: A new sorted integer array
+     */
+    /**
+     *
+     *  int[] A={1,2,3,4};
+        int[] B={2,4,5,6};
+        T6 test = new T6();
+        int[] a = test.mergeSortedArray(A,B);
+        for (int i = 0; i < a.length ; i++) {
+        System.out.println(a[i]);
+        }
      */
     public int[] mergeSortedArray(int[] A, int[] B) {
         // write your code here
@@ -27,3 +37,5 @@ public class T6 {
         return list;
     }
 }
+
+

@@ -1,7 +1,9 @@
 public class Test {
     public static void main(String[] args) {
-        int n = 15;
-        T9 test = new T9();
-        System.out.println(test.fizzBuzz(n).toString());
+        String str = "bcd";
+        char[] array = str.toCharArray();
+        char[] a = {'2','3','c','f'};
+        System.out.println(array);
+        System.out.println(a);
     }
 }
